@@ -1,0 +1,76 @@
+:root{
+ --default-color:#706c6c;
+ --active-color:#f00;
+ --active-color2:rgb(186, 6, 186);
+}
+
+*{
+ font-family: sans-serif;
+}
+
+.likeBtn {
+    border:2px solid var(--default-color);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-radius: 32px;
+    cursor: pointer;
+    font-weight: bold;
+    height: 30px;
+    padding: 4px 8px;
+    margin-bottom: 5px;
+    color: var(--default-color);
+    background-color: rgb(234, 239, 243);
+}
+
+.likeBtn:hover{
+    border-color: var(--active-color);
+    color: var(--active-color);
+}
+
+.liked,
+.liked:hover{
+ background-color: var(--active-color);
+ border-color: var(--active-color);
+ color: rgb(234, 239, 243);
+}
+
+.likeBtn-icon {
+  display: flex;
+}
+.error{
+  font-size: 12px;
+}
+.likeBtn2 {
+  border:2px solid var(--default-color);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-radius: 32px;
+  cursor: pointer;
+  font-weight: bold;
+  height: 30px;
+  padding: 4px 8px;
+  margin-bottom: 5px;
+  color: var(--default-color);
+  background-color: rgb(234, 239, 243);
+}
+
+.likeBtn2:hover{
+  border-color: var(--active-color2);
+  color: var(--active-color2);
+}
+
+.liked2,
+.liked2:hover{
+background-color: var(--active-color2);
+border-color: var(--active-color2);
+color: rgb(234, 239, 243);
+}
+
+.likeBtn2-icon {
+display: flex;
+}
+.error{
+font-size: 12px;
+}
