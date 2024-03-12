@@ -1,6 +1,7 @@
 
 import CheckoutStepper from './components/CheckoutStepper.jsx';
 import './App.css'
+import BatteryStatus from './BatteryStatus.jsx';
 
 const CHECKOUT_STEPS = [
    {
@@ -26,6 +27,8 @@ const App = () => {
     <div>
       <h2>Checkout</h2>
       <CheckoutStepper stepsConfig={CHECKOUT_STEPS} />
+
+      <BatteryStatus />
     </div>
   )
 }
