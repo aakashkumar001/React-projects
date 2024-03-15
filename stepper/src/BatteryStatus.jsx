@@ -5,7 +5,7 @@ const BatteryStatus = () => {
 
     const battery = useBattery();
 
-   const { isSupported, level, charging, dischargingTime, chargingTime} = battery;
+   const { isSupported, level, chargingTime} = battery;
 
    if(!isSupported) {
    return (
