@@ -19,7 +19,7 @@ console.log(level)
 
 
   return (
-    <h2>batteryStatus  {(level * 100).toFixed()} %</h2>
+    <h1>batteryStatus  {(level * 100).toFixed()} %</h1>
   )
 }
 
