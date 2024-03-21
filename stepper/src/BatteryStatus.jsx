@@ -15,7 +15,7 @@ const BatteryStatus = () => {
     )
 }
 
-console.log(level)
+
 
 
   return (
