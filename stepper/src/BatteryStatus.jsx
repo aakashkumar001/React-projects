@@ -10,7 +10,7 @@ const BatteryStatus = () => {
    if(!isSupported) {
    return (
        <div>
-       <h5>Battery Sensor is Not Supported</h5> 
+       <h5>Battery Sensor is Not Supported on This Device</h5> 
        </div>
     )
 }
